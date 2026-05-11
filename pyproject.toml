@@ -67,3 +67,7 @@ fixable = ["ALL"]
 unfixable = [
     "F401", # dont remove unused imports
 ]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/dagster_and_dbt"]
+artifacts = ["src/dagster_and_dbt/analytics/target/manifest.json"]
