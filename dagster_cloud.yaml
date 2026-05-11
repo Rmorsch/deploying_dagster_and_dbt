@@ -1,5 +1,4 @@
-# dagster_cloud.yaml
 locations:
   - location_name: dagster_and_dbt
     code_source:
-      python_file: src/dagster_and_dbt/defs/definitions.py
+      package_name: dagster_and_dbt
